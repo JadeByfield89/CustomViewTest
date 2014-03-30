@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/llBrushes"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="120dp"
+        android:layout_width="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/ibBrush1"
+            android:layout_marginTop="15dp"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/brush_unselected"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/ibBrush2"
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/brush_two_unselected"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/ibBrush3"
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:layout_marginTop="-5dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/brush_three_unselected"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/ibBrush4"
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:layout_marginTop="-0dp"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/transparent"
+
+            android:src="@drawable/brush_four_unselected"></ImageButton>
+
+    </LinearLayout>
+
+
+    <com.example.customviewtestapp.views.GriddedImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/ivZoomImage"
+
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
+        custom:numRows="3"
+        custom:numColums="3" />
+
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivZoomImage"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/bDrawMode"
+            android:text="Draw mode OFF"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"></Button>
+
+
+        <Button
+            android:id="@+id/bRemovePath"
+            android:text="Remove Path"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"></Button>
+
+
+
+        <Button
+            android:id="@+id/bClear"
+            android:text="Clear"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"></Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Jade%20Byfield/Desktop/Android_Studio_Projects/CustomViewTestApp/app/src/main/res/layout/gridded_imageview_fragment.xml -->

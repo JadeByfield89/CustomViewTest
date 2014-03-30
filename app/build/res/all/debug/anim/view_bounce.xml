@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/bounce_interpolator">
+    <translate
+        android:fromYDelta="-100%p"
+        android:toYDelta="0"
+        android:duration="2000"/>
+</set><!-- From: file:/C:/Users/Jade%20Byfield/Desktop/Android_Studio_Projects/CustomViewTestApp/app/src/main/res/anim/view_bounce.xml -->

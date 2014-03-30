@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/brush_four_selected"
+        android:state_pressed="true" />
+    <item android:drawable="@drawable/brush_four_selected"
+        android:state_focused="true" />
+    <item android:drawable="@drawable/brush_four_unselected" />
+
+</selector><!-- From: file:/C:/Users/Jade%20Byfield/Desktop/Android_Studio_Projects/CustomViewTestApp/app/src/main/res/drawable/brush_four_selector.xml -->

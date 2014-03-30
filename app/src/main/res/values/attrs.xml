@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColorPickerOptions">
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="valueColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="BubbleView">
+
+        <attr name="circleRadius" format="integer" />
+        <attr name="circleColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="GriddedImageView">
+
+        <attr name="numRows" format="integer" />
+        <attr name="numColums" format="integer" />
+    </declare-styleable>
+
+</resources>
